@@ -1,13 +1,13 @@
 {
   "name": "fk-meta-engine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./lib/index.js",
   "scripts": {
     "compile": "babel -d lib/ src/",
     "commit": "git add . && git commit -m 'zlj' &&  git push -u origin master",
-    "build": "webpack --output-filename mk-meta-engine.js",
-    "build-min": "cross-env NODE_ENV=production COMPRESS=1 webpack --output-filename mk-meta-engine.min.js",
+    "build": "webpack --output-filename fk-meta-engine.js",
+    "build-min": "cross-env NODE_ENV=production COMPRESS=1 webpack --output-filename fk-meta-engine.min.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,7 +23,7 @@
   "dependencies": {
     "immutable": "^3.8.2",
     "fk-app-loader": "^1.0.0",
-    "fk-utils": "^1.0.0",
+    "fk-utils": "^1.0.3",
     "omit.js": "^0.1.0",
     "react": "^16.1.0",
     "react-dom": "^16.1.0"
