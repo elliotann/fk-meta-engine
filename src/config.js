@@ -1,4 +1,4 @@
-import { config as appLoaderConfig, AppLoader } from 'mk-app-loader'
+import { config as appLoaderConfig, AppLoader } from 'fk-app-loader'
 import cf from './componentFactory'
 
 

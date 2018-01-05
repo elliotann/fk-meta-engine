@@ -1,5 +1,5 @@
 import Immutable, { Map, List, fromJS } from 'immutable'
-import utils, { path } from 'mk-utils'
+import utils, { path } from 'fk-utils'
 
 const { existsParamsInPath, parsePath } = path
 

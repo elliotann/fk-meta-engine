@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 import monkeyKing from './monkeyKing'
 import config from './config'
-import utils from 'mk-utils'
+import utils from 'fk-utils'
 
 export default function wrapper(option) {
 	return WrappedComponent => {

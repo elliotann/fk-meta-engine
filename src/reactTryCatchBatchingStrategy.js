@@ -1,6 +1,6 @@
 import ReactUpdates from "react-dom/lib/ReactUpdates"
 import ReactDefaultBatchingStrategy from "react-dom/lib/ReactDefaultBatchingStrategy"
-import utils from 'mk-utils'
+import utils from 'fk-utils'
 
 let isHandlingError = false
 

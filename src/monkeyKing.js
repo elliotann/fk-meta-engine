@@ -1,5 +1,5 @@
 import React from 'react'
-import { AppLoader } from 'mk-app-loader'
+import { AppLoader } from 'fk-app-loader'
 import componentFactory from './componentFactory'
 import omit from 'omit.js'
 import config from './config'

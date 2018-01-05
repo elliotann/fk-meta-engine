@@ -1,4 +1,4 @@
-import { start, AppLoader } from 'mk-app-loader'
+import { start, AppLoader } from 'fk-app-loader'
 import config from './config'
 import action from './action'
 import reducer from './reducer'
