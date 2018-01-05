@@ -1,4 +1,4 @@
-import { config, start, componentFactory } from 'mk-meta-engine'
+import { config, start, componentFactory } from 'fk-meta-engine'
 import myConfig  from './config'
 
 import demo from './apps/demo/index.js'
@@ -23,7 +23,7 @@ const apps = {
 apps.config({ '*': { apps } })
 config(myConfig({ apps }))
 
-import * as mkComponents from 'mk-component'
+import * as mkComponents from 'fk-component'
 
 Object.keys(mkComponents).forEach(key=>{
 	componentFactory.registerComponent(key, mkComponents[key])
