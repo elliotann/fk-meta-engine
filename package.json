@@ -23,7 +23,7 @@
   "dependencies": {
     "immutable": "^3.8.2",
     "fk-app-loader": "^1.0.0",
-    "fk-utils": "^1.0.3",
+    "fk-utils": "^1.0.4",
     "omit.js": "^0.1.0",
     "react": "^16.1.0",
     "react-dom": "^16.1.0"
